@@ -1,7 +1,6 @@
 # teste-aula-pw
 Apenas a criação de um repositório para a aulda de PWII
 
+apaguei tudo agora HAHAHAHAHAH
 
-**bom dia**
-
-**Isso é apenas um teste**
+#SOU MAL E É ISSO KAKAAKAKAK
