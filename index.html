@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento</title>
-    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <title>Blog Teste</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-8 col-md-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores praesentium consequatur inventore nam adipisci doloremque accusantium quisquam, voluptate optio, ipsam nihil laboriosam iusto rerum dolorem tempora. Cumque est labore repellat!</div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand">Brand</a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Item 1 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                </li>
+            </ul>
         </div>
-        <div class="row mt-3">
-            <div class="col-12 col-sm-10 col-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, voluptates nisi vero impedit, magni sunt voluptatem nemo veritatis sit neque molestiae totam dolores soluta libero ex voluptatibus provident suscipit rem.</div>
-        </div>
-    </div>
+    </nav>
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.js"></script>
