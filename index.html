@@ -7,6 +7,7 @@
     <title>Blog Teste</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/vini.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
 </head>
 <body>
 <!-- Barra de Navegação: Menu
@@ -14,7 +15,7 @@
     Cada coisa dentro da classe define algo que o bootstrap altera, como a cor, alinhamento, entre outros. 
 -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top text-right">
-        <a class="navbar-brand text-white">Marca/Logo</a>
+        <a class="navbar-brand text-white">Site de Notícias</a>
         <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,7 +34,7 @@
     <div class="jumbotron bg-success jumbotron text-center bg-vini">
         <div class="row">
             <div class="col-12 text-center mt-3">
-                <h1>Bem Vindo ao Site de Notícias</h1>
+                <h1 class="title">Bem Vindo ao Site de Notícias</h1>
             </div>
         </div>
     </div>
@@ -98,10 +99,13 @@
     <div class="container-fluid mt-3 bg-info">
         <div class="row">
             <div class="col-12">
-                <p class="text-center text-dark mt-2">Direitos Reservados</p>
-                <p class="text-center text-dark">Sigam-nos em nossas redes socias!</p>
+                <p class="text-center text-white mt-2">Direitos Reservados</p>
+                <p class="text-center text-white">Sigam-nos em nossas redes socias!</p>
                 <!-- TODO: Instalar Fonte Awesome para terminar o rodapé-->
-                <p class="text-center">Facebook - Instagram</p>
+                <p class="text-center">
+                    <i class="fa-brands fa-facebook text-white icon mr-2"></i>
+                    <i class="fa-brands fa-instagram text-white icon"></i>
+                </p>
             </div>
         </div>
         <div class="row">
@@ -114,6 +118,7 @@
     </div>
 
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="fontawesome/js/all.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
 </html>
