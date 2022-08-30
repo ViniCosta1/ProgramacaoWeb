@@ -5,6 +5,8 @@ $(document).ready(function () {
         console.log(cep);
         $.ajax({
             type: "GET",
+            dataType: 'JSON',
+            async: true,
             url: `https://viacep.com.br/ws/${cep}/json/`,
             success: function (data) {
                 $("#logradouro").val(data.logradouro);
